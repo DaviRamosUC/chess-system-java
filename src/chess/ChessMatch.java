@@ -25,10 +25,10 @@ public class ChessMatch {
 	
 	private void initialSetup() {
 		//WHITE PIECES
-		board.PlacePiece(new Rook(board, Color.WHITE), new Position(2, 1));
-		board.PlacePiece(new King(board, Color.WHITE), new Position(7, 4));
+		board.placePiece(new Rook(board, Color.WHITE), new Position(2, 1));
+		board.placePiece(new King(board, Color.WHITE), new Position(7, 4));
 		//BLACK PIECES
-		board.PlacePiece(new Rook(board, Color.BLACK), new Position(5, 1));
-		board.PlacePiece(new King(board, Color.BLACK), new Position(0, 4));
+		board.placePiece(new Rook(board, Color.BLACK), new Position(5, 1));
+		board.placePiece(new King(board, Color.BLACK), new Position(0, 4));
 	}
 }
